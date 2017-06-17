@@ -1,6 +1,5 @@
 
---Begin Fun.lua By @BeyondTeam
---Special Thx To @To0fan
+--Begin Fun.lua By @LockerTeam
 --------------------------------
 
 local function run_bash(str)
@@ -235,7 +234,7 @@ local Clang = redis:get(Chash)
       return nil
       else
   local url = "http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&text="..textc
-  local file = download_to_file(url,'BD-Reborn.mp3')
+  local file = download_to_file(url,'LockerTeam.mp3')
  				tdcli.sendDocument(msg.to.id, 0, 0, 1, nil, file, msg_caption, dl_cb, nil)
    end
 end
@@ -314,7 +313,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_en = [[
-_Beyond Reborn Fun Help Commands:_
+_Ɓℓαcк ƁOƬ Fun Help Commands:_
 
 *!time*
 _Get time in a sticker_
